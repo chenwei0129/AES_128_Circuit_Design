@@ -8,7 +8,7 @@
 A typical AES circuit, and the module "key expansion" is a combinational circuit, generate 10 keys at a time. Thereforw we need a MUX to select a key to use.
 
 * V2\
-Modify V1 "key expansion" module, to reduce the hardware resource.
+Modify V1 "key expansion" module from combinational circuit to sequential circuit, to reduce the hardware resource.
 
 * V3\
   * According to paper[1], modifing V2 "key expansion" and "mixcolumns"/"inv_mixcolumns" modules to improve the performance of the circuit.
