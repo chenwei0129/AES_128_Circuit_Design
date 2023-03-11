@@ -1,6 +1,6 @@
-# AES Circuit Design
+# AES-128 Circuit Design
 
-## Using AES algorithm to encrypt/decrypt the message.
+## Using AES-128 algorithm to encrypt/decrypt the message.
 
 ## THere are three versions of the circuit, the functions are the same, just difference from their architecture.
 
