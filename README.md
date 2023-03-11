@@ -14,5 +14,9 @@ Modify V1 "key expansion" module, to reduce the hardware resource.
   * According to paper[1], modifing V2 "key expansion" and "mixcolumns"/"inv_mixcolumns" modules to improve the performance of the circuit.
   * Use a RAM in testbench(simulation) to store the subbytes, which are use in the "subbyte" module.
 
+# How to use
+
+    1. Use
+
 # Reference
 [1] Zhu, Yuwen, Hongqi Zhang, and Yibao Bao. "Study of the AES realization method on the reconfigurable hardware." 2013 International Conference on Computer Sciences and Applications. IEEE, 2013.
