@@ -17,15 +17,24 @@ Modify V1 "key expansion" module from combinational circuit to sequential circui
 # How to use
 ## encrypt, in the folder "AES_encryption"
     1. Use key_generator.py to generate a key, which is 128bits. The key will be stored at "text/key.txt".
+    
     2. Prepare the message in english to be encrypted at "text/plaintext.txt".
+    
     3. Use plaintext_ascii.py to transfer the message into ascii code, it will be "text/plaintext_ascii.txt".
+    
     4. Use AES circuit to encrypt the ascii code by iverilog or ncverilog. The encrypted ascii code will be "text/cyphertext_ascii.txt".
+    
     5. Use ascii_cyphertext.py to transfer the encrypted ascii code into a alphabet message, which will be stored at "../AES_decryption/text/cyphertext.txt"
+    
 ## decrypt, in the folder "AES_decryption"
     1. The key used when encrypt will stored at "AES_decryption/text/key.txt", too.
+    
     2. Use cyphertext_ascii.py to transfer the encrypted alphabet message into encrypted ascii code, it will be "text/cyphertext_ascii.txt".
+    
     3. Use AES circuit to decrypt the ascii code by iverilog or ncverilog. The decrypted ascii code will be "text/plaintext_acii.txt".
+    
     4. Use ascii_plaintext.py to transfer the decrypted ascii code into a original message, which will be stored at "text/plaintext.txt"
+    
 
 # Reference
 [1] Zhu, Yuwen, Hongqi Zhang, and Yibao Bao. "Study of the AES realization method on the reconfigurable hardware." 2013 International Conference on Computer Sciences and Applications. IEEE, 2013.
