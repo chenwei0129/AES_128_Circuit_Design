@@ -5,7 +5,7 @@
 ## There are three versions of the circuit, the functions are the same, just difference from their architecture.
 
 * V1\
-A typical AES circuit, and the module "key expansion" is a combinational circuit, generate 10 keys at a time. Thereforw we need a MUX to select a key to use.
+A typical AES circuit, and the module "key expansion" is a combinational circuit, generate 10 keys at a time. Therefore we need a MUX to select a key to use.
 
 * V2\
 Modify V1 "key expansion" module from combinational circuit to sequential circuit, to reduce the hardware resources.
