@@ -18,7 +18,7 @@ Modify V1 "key expansion" module from combinational circuit to sequential circui
 ## encrypt, in the folder "AES_encryption"
     1. Use key_generator.py to generate a key, which is 128bits. The key will be stored at "text/key.txt".
     
-    2. Prepare the message in english to be encrypted at "text/plaintext.txt".
+    2. Prepare the message in English to be encrypted at "text/plaintext.txt".
     
     3. Use plaintext_ascii.py to transfer the message into ascii code, it will be "text/plaintext_ascii.txt".
     
