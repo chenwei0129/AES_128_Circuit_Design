@@ -12,7 +12,7 @@ Modify V1 "key expansion" module from combinational circuit to sequential circui
 
 * V3
   * According to paper[1], modifing V2 "key expansion" and "mixcolumns"/"inv_mixcolumns" modules to improve the performance of the circuit.
-  * Use a RAM in testbench(simulation) to store the subbytes, which are use in the "subbyte" module.
+  * Use a RAM in testbench(simulation) to store the subbytes, which are used in the "subbyte" module.
 
 # How to use
 ## encrypt, in the folder "AES_encryption"
